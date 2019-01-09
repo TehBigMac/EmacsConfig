@@ -1,8 +1,12 @@
 #Ignore Everything
-*
+/**
 
 #Except for these files:
-!.gitignore
-!config.org
-!init.el
-!sensible-defaults.el
+!/.gitignore
+!/config.org
+!/init.el
+!/sensible-defaults.el
+
+#Except for the templates
+!/templates/
+!/templates/*
